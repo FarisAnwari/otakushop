@@ -1,0 +1,41 @@
+img {
+    object-fit: cover;
+    width: 158px;
+    height: 200px;
+}
+
+.body {
+    background-color: aquamarine;
+}
+
+.card {
+    width: 10rem;
+}
+
+
+
+
+
+.cost span {
+    color: #286783;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.button-color {
+    background: #286783;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+ul {
+    display: inline-flex;
+    overflow: auto;
+}
+
+ul>li {
+    display: inline-block;
+    margin: 10px
+}
