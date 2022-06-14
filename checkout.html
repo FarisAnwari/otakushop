@@ -62,8 +62,10 @@
             <div class="col col-md-6 offset-md-1">
                 <form>
                     <label for="amount">Amount: </label>
-                    <input type="number" id="amount" name="amount" min="0">
-                    <br><br>
+                    <input type="number" id="amount" name="amount" min="0"><button class="mx-3"
+                        onclick="calc()">Calculate
+                        price</button> <br><br>
+                    <p>Total price: Rp<span id="totprice"></span></p>
                     <p>Select your preferred e-money</p>
                     <ul style="display: flex;
                     align-items: center;">
@@ -84,6 +86,19 @@
                             <label for="moaney">Moaney</label><br>
                         </li>
                     </ul>
+                    <div class="mb-3">
+                        <p>Enter your e-money details</p>
+                    </div>
+
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="username" placeholder="Username or Email">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="pin" placeholder="PIN (for HARPAY)">
+                    </div>
+                    <div class="mb-3">
+                        <input type="password" class="form-control" id="password" placeholder="Password">
+                    </div>
                     <button type="button" class="btn btn-success" onclick="pay()">Confirm</button>
                 </form>
             </div>
